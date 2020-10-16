@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    position: relative;
+    width: 1000px;
+    height: 1000px;
+    margin: 200px auto 0;
+}
+
+.square {
+    position: relative;
+    z-index: 10;
+    width: 50%;
+    height: 50%;
+    margin: 0 auto;
+    background-color: rgb(70, 170, 236);
+}
+
+.square:hover {
+    z-index: 30;
+    background-color: rgb(17, 231, 53);
+}
+
+.square-inside {
+    position: absolute;
+    top: 12.5%;
+    left: 37.5%;
+    z-index: 25;
+    width: 25%;
+    height: 25%;
+    background-color: orange;
+    border-radius: 20px;
+}
+
+.circle {
+    width: 25%;
+    height: 25%;
+    background-color: red;
+    border-radius: 50%;
+}
+
+.left-top-circle {
+    position: absolute;
+    top: -12.5%;
+    left: 12.5%;
+    z-index: 5;
+}
+
+.left-top-circle:hover {
+    z-index: 15;
+    background-color: seagreen;
+}
+
+.right-top-circle {
+    position: absolute;
+    top: -12.5%;
+    right: 12.5%;
+    z-index: 5;
+}
+
+.right-top-circle:hover {
+    z-index: 15;
+    background-color: coral;
+}
+
+.left-bot-circle {
+    position: absolute;
+    bottom: 37.5%;
+    left: 12.5%;
+    z-index: 5;
+}
+
+.left-bot-circle:hover {
+    z-index: 15;
+    background-color: violet;
+}
+
+.right-bot-circle {
+    position: absolute;
+    bottom: 37.5%;
+    right: 12.5%;
+    z-index: 5;
+}
+
+.right-bot-circle:hover {
+    background-color: yellow;
+    z-index: 15;
+}
