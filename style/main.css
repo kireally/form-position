@@ -17,7 +17,7 @@
     width: 50%;
     height: 50%;
     margin: 0 auto;
-    background-color: rgb(70, 170, 236);
+    background-color: rgb(238,34,12);
 }
 
 .square:hover {
@@ -32,14 +32,14 @@
     z-index: 25;
     width: 25%;
     height: 25%;
-    background-color: orange;
+    background-color: rgb(248,186,0);
     border-radius: 20px;
 }
 
 .circle {
     width: 25%;
     height: 25%;
-    background-color: red;
+    background-color: rgb(238,34,12);
     border-radius: 50%;
 }
 
